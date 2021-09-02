@@ -1,0 +1,17 @@
+Chat-App
+=========
+This is a chat application made using node,express,socket.io and mongodb.
+
+The client side is made using a html page which contains the name
+and message field.
+
+A user can mention his name and send message which is then stored in
+the database named 'chatapp'. The user's message is also shown below
+the send button inside a div.
+
+The database contains 2 parameters, i.e name and message.
+
+Similarly, on the server side, after the post method is called,
+"chat" event is triggered inside the client which then stores the
+data and shows it on client interface.
+
